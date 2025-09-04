@@ -1,0 +1,219 @@
+2025-05-10 10:46:50,910 [INFO] ### Início da execução da pipeline ###
+2025-05-10 10:46:50,910 [INFO] Iniciando etapa: ingestao.ipynb
+2025-05-10 10:46:50,910 [INFO] Input Notebook:  ingestao.ipynb
+2025-05-10 10:46:50,911 [INFO] Output Notebook: ingestao_output.ipynb
+2025-05-10 10:46:50,972 [WARNING] Kernelspec name python3 cannot be found!
+2025-05-10 10:46:50,972 [ERROR] No such kernel named python3
+Traceback (most recent call last):
+  File "/Users/bcarneiro/Documents/unifor/dataops/base/lib/python3.13/site-packages/jupyter_client/manager.py", line 87, in wrapper
+    out = await method(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bcarneiro/Documents/unifor/dataops/base/lib/python3.13/site-packages/jupyter_client/manager.py", line 435, in _async_start_kernel
+    kernel_cmd, kw = await self._async_pre_start_kernel(**kw)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bcarneiro/Documents/unifor/dataops/base/lib/python3.13/site-packages/jupyter_client/manager.py", line 397, in _async_pre_start_kernel
+    self.kernel_spec,
+    ^^^^^^^^^^^^^^^^
+  File "/Users/bcarneiro/Documents/unifor/dataops/base/lib/python3.13/site-packages/jupyter_client/manager.py", line 195, in kernel_spec
+    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/bcarneiro/Documents/unifor/dataops/base/lib/python3.13/site-packages/jupyter_client/kernelspec.py", line 285, in get_kernel_spec
+    raise NoSuchKernel(kernel_name)
+jupyter_client.kernelspec.NoSuchKernel: No such kernel named python3
+2025-05-10 10:46:50,974 [ERROR] Erro na etapa ingestao.ipynb: No such kernel named python3
+2025-05-10 10:48:42,164 [INFO] ### Início da execução da pipeline ###
+2025-05-10 10:48:42,164 [INFO] Iniciando etapa: /Users/bcarneiro/Documents/unifor/dataops/ingestao.ipynb
+2025-05-10 10:48:42,164 [INFO] Input Notebook:  /Users/bcarneiro/Documents/unifor/dataops/ingestao.ipynb
+2025-05-10 10:48:42,164 [INFO] Output Notebook: ingestao_output.ipynb
+2025-05-10 10:48:42,201 [WARNING] Kernelspec name python3 cannot be found!
+2025-05-10 10:48:42,201 [ERROR] No such kernel named python3
+Traceback (most recent call last):
+  File "/Users/bcarneiro/Documents/unifor/dataops/base/lib/python3.13/site-packages/jupyter_client/manager.py", line 87, in wrapper
+    out = await method(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bcarneiro/Documents/unifor/dataops/base/lib/python3.13/site-packages/jupyter_client/manager.py", line 435, in _async_start_kernel
+    kernel_cmd, kw = await self._async_pre_start_kernel(**kw)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bcarneiro/Documents/unifor/dataops/base/lib/python3.13/site-packages/jupyter_client/manager.py", line 397, in _async_pre_start_kernel
+    self.kernel_spec,
+    ^^^^^^^^^^^^^^^^
+  File "/Users/bcarneiro/Documents/unifor/dataops/base/lib/python3.13/site-packages/jupyter_client/manager.py", line 195, in kernel_spec
+    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/bcarneiro/Documents/unifor/dataops/base/lib/python3.13/site-packages/jupyter_client/kernelspec.py", line 285, in get_kernel_spec
+    raise NoSuchKernel(kernel_name)
+jupyter_client.kernelspec.NoSuchKernel: No such kernel named python3
+2025-05-10 10:48:42,202 [ERROR] Erro na etapa /Users/bcarneiro/Documents/unifor/dataops/ingestao.ipynb: No such kernel named python3
+2025-05-10 10:54:22,676 [INFO] ### Início da execução da pipeline ###
+2025-05-10 10:54:22,676 [INFO] Iniciando etapa: ingestao.ipynb
+2025-05-10 10:54:22,676 [INFO] Input Notebook:  ingestao.ipynb
+2025-05-10 10:54:22,676 [INFO] Output Notebook: ingestao_output.ipynb
+2025-05-10 10:54:23,582 [INFO] Executing notebook with kernel: python3
+2025-05-10 11:10:37,255 [INFO] ### Início da execução da pipeline ###
+2025-05-10 11:10:37,255 [INFO] Iniciando etapa: ingestao.ipynb
+2025-05-10 11:10:37,256 [INFO] Input Notebook:  ingestao.ipynb
+2025-05-10 11:10:37,256 [INFO] Output Notebook: ingestao_output.ipynb
+2025-05-10 11:10:37,295 [WARNING] Kernelspec name python3 cannot be found!
+2025-05-10 11:10:37,295 [ERROR] No such kernel named python3
+Traceback (most recent call last):
+  File "/Users/bcarneiro/Documents/unifor/dataops/base/lib/python3.13/site-packages/jupyter_client/manager.py", line 87, in wrapper
+    out = await method(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bcarneiro/Documents/unifor/dataops/base/lib/python3.13/site-packages/jupyter_client/manager.py", line 435, in _async_start_kernel
+    kernel_cmd, kw = await self._async_pre_start_kernel(**kw)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bcarneiro/Documents/unifor/dataops/base/lib/python3.13/site-packages/jupyter_client/manager.py", line 397, in _async_pre_start_kernel
+    self.kernel_spec,
+    ^^^^^^^^^^^^^^^^
+  File "/Users/bcarneiro/Documents/unifor/dataops/base/lib/python3.13/site-packages/jupyter_client/manager.py", line 195, in kernel_spec
+    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/bcarneiro/Documents/unifor/dataops/base/lib/python3.13/site-packages/jupyter_client/kernelspec.py", line 285, in get_kernel_spec
+    raise NoSuchKernel(kernel_name)
+jupyter_client.kernelspec.NoSuchKernel: No such kernel named python3
+2025-05-10 11:10:37,296 [ERROR] Erro na etapa ingestao.ipynb: No such kernel named python3
+2025-05-10 11:17:32,686 [INFO] ### Início da execução da pipeline ###
+2025-05-10 11:17:32,686 [INFO] Iniciando etapa: ingestao.ipynb
+2025-05-10 11:17:32,686 [INFO] Input Notebook:  ingestao.ipynb
+2025-05-10 11:17:32,686 [INFO] Output Notebook: ingestao_output.ipynb
+2025-05-10 11:17:33,586 [INFO] Executing notebook with kernel: python3
+2025-05-10 11:17:40,691 [INFO] Etapa concluída com sucesso: ingestao.ipynb
+2025-05-10 11:17:40,691 [INFO] Iniciando etapa: transformacao.ipynb
+2025-05-10 11:17:40,691 [INFO] Input Notebook:  transformacao.ipynb
+2025-05-10 11:17:40,691 [INFO] Output Notebook: transformacao_output.ipynb
+2025-05-10 11:17:41,261 [INFO] Executing notebook with kernel: python3
+2025-05-10 11:17:41,826 [ERROR] Erro na etapa transformacao.ipynb: 
+---------------------------------------------------------------------------
+Exception encountered at "In [2]":
+---------------------------------------------------------------------------
+OperationalError                          Traceback (most recent call last)
+File ~/miniconda3/lib/python3.12/site-packages/pandas/io/sql.py:2674, in SQLiteDatabase.execute(self, sql, params)
+   2673 try:
+-> 2674     cur.execute(sql, *args)
+   2675     return cur
+
+OperationalError: no such table: bronze-abril
+
+The above exception was the direct cause of the following exception:
+
+DatabaseError                             Traceback (most recent call last)
+Cell In[2], line 3
+      1 conn_sqlite = sqlite3.connect('salarios-servidores.db')
+----> 3 df = pd.read_sql_query('SELECT * FROM "bronze-abril"', conn_sqlite)
+
+File ~/miniconda3/lib/python3.12/site-packages/pandas/io/sql.py:526, in read_sql_query(sql, con, index_col, coerce_float, params, parse_dates, chunksize, dtype, dtype_backend)
+    523 assert dtype_backend is not lib.no_default
+    525 with pandasSQL_builder(con) as pandas_sql:
+--> 526     return pandas_sql.read_query(
+    527         sql,
+    528         index_col=index_col,
+    529         params=params,
+    530         coerce_float=coerce_float,
+    531         parse_dates=parse_dates,
+    532         chunksize=chunksize,
+    533         dtype=dtype,
+    534         dtype_backend=dtype_backend,
+    535     )
+
+File ~/miniconda3/lib/python3.12/site-packages/pandas/io/sql.py:2738, in SQLiteDatabase.read_query(self, sql, index_col, coerce_float, parse_dates, params, chunksize, dtype, dtype_backend)
+   2727 def read_query(
+   2728     self,
+   2729     sql,
+   (...)
+   2736     dtype_backend: DtypeBackend | Literal["numpy"] = "numpy",
+   2737 ) -> DataFrame | Iterator[DataFrame]:
+-> 2738     cursor = self.execute(sql, params)
+   2739     columns = [col_desc[0] for col_desc in cursor.description]
+   2741     if chunksize is not None:
+
+File ~/miniconda3/lib/python3.12/site-packages/pandas/io/sql.py:2686, in SQLiteDatabase.execute(self, sql, params)
+   2683     raise ex from inner_exc
+   2685 ex = DatabaseError(f"Execution failed on sql '{sql}': {exc}")
+-> 2686 raise ex from exc
+
+DatabaseError: Execution failed on sql 'SELECT * FROM "bronze-abril"': no such table: bronze-abril
+
+2025-05-10 11:19:32,622 [INFO] ### Início da execução da pipeline ###
+2025-05-10 11:19:32,622 [INFO] Iniciando etapa: ingestao.ipynb
+2025-05-10 11:19:32,622 [INFO] Input Notebook:  ingestao.ipynb
+2025-05-10 11:19:32,622 [INFO] Output Notebook: ingestao_output.ipynb
+2025-05-10 11:19:33,258 [INFO] Executing notebook with kernel: python3
+2025-05-10 11:19:34,738 [INFO] Etapa concluída com sucesso: ingestao.ipynb
+2025-05-10 11:19:34,738 [INFO] Iniciando etapa: transformacao.ipynb
+2025-05-10 11:19:34,738 [INFO] Input Notebook:  transformacao.ipynb
+2025-05-10 11:19:34,738 [INFO] Output Notebook: transformacao_output.ipynb
+2025-05-10 11:19:35,474 [INFO] Executing notebook with kernel: python3
+2025-05-10 11:19:36,581 [ERROR] Erro na etapa transformacao.ipynb: 
+---------------------------------------------------------------------------
+Exception encountered at "In [3]":
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+Cell In[3], line 1
+----> 1 df.drop(columns=['diarias', 'nome_servidor'], inplace=True)
+      3 df['total_proventos'] = pd.to_numeric(df['total_proventos'])
+      4 df['proventos_liquidos'] = pd.to_numeric(df['proventos_liquidos'])
+
+File ~/miniconda3/lib/python3.12/site-packages/pandas/core/frame.py:5581, in DataFrame.drop(self, labels, axis, index, columns, level, inplace, errors)
+   5433 def drop(
+   5434     self,
+   5435     labels: IndexLabel | None = None,
+   (...)
+   5442     errors: IgnoreRaise = "raise",
+   5443 ) -> DataFrame | None:
+   5444     """
+   5445     Drop specified labels from rows or columns.
+   5446 
+   (...)
+   5579             weight  1.0     0.8
+   5580     """
+-> 5581     return super().drop(
+   5582         labels=labels,
+   5583         axis=axis,
+   5584         index=index,
+   5585         columns=columns,
+   5586         level=level,
+   5587         inplace=inplace,
+   5588         errors=errors,
+   5589     )
+
+File ~/miniconda3/lib/python3.12/site-packages/pandas/core/generic.py:4788, in NDFrame.drop(self, labels, axis, index, columns, level, inplace, errors)
+   4786 for axis, labels in axes.items():
+   4787     if labels is not None:
+-> 4788         obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+   4790 if inplace:
+   4791     self._update_inplace(obj)
+
+File ~/miniconda3/lib/python3.12/site-packages/pandas/core/generic.py:4830, in NDFrame._drop_axis(self, labels, axis, level, errors, only_slice)
+   4828         new_axis = axis.drop(labels, level=level, errors=errors)
+   4829     else:
+-> 4830         new_axis = axis.drop(labels, errors=errors)
+   4831     indexer = axis.get_indexer(new_axis)
+   4833 # Case for non-unique axis
+   4834 else:
+
+File ~/miniconda3/lib/python3.12/site-packages/pandas/core/indexes/base.py:7070, in Index.drop(self, labels, errors)
+   7068 if mask.any():
+   7069     if errors != "ignore":
+-> 7070         raise KeyError(f"{labels[mask].tolist()} not found in axis")
+   7071     indexer = indexer[~mask]
+   7072 return self.delete(indexer)
+
+KeyError: "['diarias', 'nome_servidor'] not found in axis"
+
+2025-05-10 11:20:09,731 [INFO] ### Início da execução da pipeline ###
+2025-05-10 11:20:09,731 [INFO] Iniciando etapa: ingestao.ipynb
+2025-05-10 11:20:09,731 [INFO] Input Notebook:  ingestao.ipynb
+2025-05-10 11:20:09,731 [INFO] Output Notebook: ingestao_output.ipynb
+2025-05-10 11:20:10,372 [INFO] Executing notebook with kernel: python3
+2025-05-10 11:20:11,940 [INFO] Etapa concluída com sucesso: ingestao.ipynb
+2025-05-10 11:20:11,940 [INFO] Iniciando etapa: transformacao.ipynb
+2025-05-10 11:20:11,940 [INFO] Input Notebook:  transformacao.ipynb
+2025-05-10 11:20:11,940 [INFO] Output Notebook: transformacao_output.ipynb
+2025-05-10 11:20:12,674 [INFO] Executing notebook with kernel: python3
+2025-05-10 11:20:13,235 [INFO] Etapa concluída com sucesso: transformacao.ipynb
+2025-05-10 11:20:13,235 [INFO] Iniciando etapa: consumo.ipynb
+2025-05-10 11:20:13,235 [INFO] Input Notebook:  consumo.ipynb
+2025-05-10 11:20:13,235 [INFO] Output Notebook: consumo_output.ipynb
+2025-05-10 11:20:13,780 [INFO] Executing notebook with kernel: python3
+2025-05-10 11:20:18,041 [INFO] Etapa concluída com sucesso: consumo.ipynb
+2025-05-10 11:20:18,041 [INFO] ### Fim da execução da pipeline ###
